@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenShop</title>
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__prenav">
+            <div class="container">
+                <div class="header__prenav-info d-flex justify-content-end">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle header__prenav-btn" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu header__prenav-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="header__prenav-link" href="#">English</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="header__prenav-link" href="#">Russian</a></li>
+                        </ul>
+                    </div>
+                    <a href="" class="header__prenav-phone fal d-inline-block"><span class="header__prenav-span">(907)555-0101</span></a>
+                    <a href="" class="header__prenav-sign fal d-inline-block"><span class="header__prenav-span">Sing in</span></a>
+                    <a href="" class="header__prenav-shop fal d-inline-block"><span class="header__prenav-span">Cart</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="d-flex navbar-light header__nav">
+                <a class="header__nav-logo"><img src="images/logo-light.png" alt="" class=" d-block"></a>
+                <form class="d-flex header__nav-form">
+                    <input class="form-control header__nav-input" type="search" placeholder="What are you looking for?" aria-label="Search">
+                    <button class="header__nav-btn" type="submit"><a href="" class="fal header__nav-icon"></a>SEARCH OUR STORE</button>
+                </form>
+            </nav>
+
+            <ul class="header__list d-flex justify-content-center">
+                <li>
+                    <a href="" class="header__list-link">Cell Phones</a>
+                </li>
+                <li>
+                    <a href="" class="header__list-link">Computers&Laptop</a>
+                </li>
+                <li>
+                    <a href="" class="header__list-link">Tv&Video</a>
+                </li>
+                <li>
+                    <a href="" class="header__list-link">Asseccories</a>
+                </li>
+                <li>
+                    <a href="" class="header__list-link">Home appliance</a>
+                </li>
+                <li>
+                    <a href="" class="header__list-link">Video Games&Consoles</a>
+                </li>
+            </ul>
+
+            <div class="header__content">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators d-flex align-items-center">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="header__content-items d-flex">
+                                <div class="header__content-left">
+                                    <img src="images/slider-1.png" alt="" class="header__content-img w-100">
+                                </div>
+                                <div
+                                    class="header__content-right d-flex flex-column justify-content-center align-items-center">
+                                    <h2 class="header__content-title">Color your days with small joy</h2>
+                                    <a href="" class="header__content-link">SHOP NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="header__content-items d-flex">
+                                <div class="header__content-left">
+                                    <img src="images/slider-2.png" alt="" class="header__content-img w-100">
+                                </div>
+                                <div
+                                    class="header__content-right d-flex flex-column justify-content-center align-items-center">
+                                    <h2 class="header__content-title">Color your days with small joy</h2>
+                                    <a href="" class="header__content-link">SHOP NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="libs/bootstrap.bundle.js"></script>
+</body>
+
+</html>
