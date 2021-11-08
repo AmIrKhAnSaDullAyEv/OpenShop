@@ -1,0 +1,69 @@
+@media(prefers-color-scheme: dark) {
+    :root {
+        --primary-background: #0C0C0C;
+    }
+
+    body {
+        background: var(--black-color);
+    }
+
+    .header__prenav {
+        background: var(--primary-background);
+    }
+
+    .header__nav-logo::before {
+        content: url('../images/logo-dark.png');
+    }
+
+    .header__nav-input {
+        color: var(--secondary-color);
+        border-color: var(--secondary-color);
+        background: none;
+    }
+
+    .header__nav-btn {
+        background: none;
+        border-color: var(--secondary-color);
+    }
+
+    .header__list-link {
+        color: var(--secondary-color);
+    }
+
+    .header__list-menu {
+        background: var(--primary-background);
+    }
+
+    .header__list-menu::before {
+        background: var(--secondary-color);
+    }
+
+    .header__list-title {
+        color: var(--secondary-color);
+    }
+
+    .header__list-description {
+        color: var(--secondary-color);
+    }
+
+    .header__content-title {
+        color: var(--secondary-color);
+    }
+
+    .header__content-link {
+        background: none;
+        border-color: var(--secondary-color);
+    }
+
+    .carousel-indicators [data-bs-target].active {
+        background: var(--secondary-color);
+    }
+
+    .header__prenav-menu {
+        background: var(--primary-background);
+    }
+
+    .header__prenav-link {
+        color: var(--secondary-color);
+    }
+}
